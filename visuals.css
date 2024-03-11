@@ -1,0 +1,6 @@
+td.Advanced{color: black;}
+td.Initiate{color: green;}
+td.Intermediate{color: orangered;}
+td.Expert{color: indigo;}
+.Expert{font-weight: bold;}
+.Initiate{font-style: oblique;}
