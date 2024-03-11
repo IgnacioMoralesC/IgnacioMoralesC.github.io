@@ -63,9 +63,18 @@
         </tr>
         
     </table>
+
     <h3>Contact me</h3>
-    <input type="text">
-    <button style="background-color: lightgreen;">Send Email</button>
+    <input type="text" id="texto">
+    <button style="background-color: lightgreen;" onclick="myFunction()">Send Email</button>
+
+    <p id="changed_text" style="font-style: oblique;">Tu nombre aquí</p>
+    <script>
+        function myFunction(){
+        let text = document.getElementById("texto").value;
+        document.getElementById("changed_text").innerHTML = text;
+        }
+    </script>
     
 </body>
 </html>
